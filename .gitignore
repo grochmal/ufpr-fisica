@@ -1,0 +1,6 @@
+# object files for programs and some latex files
+*.o
+*.log
+*.aux
+*.pdf
+

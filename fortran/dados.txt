@@ -1,0 +1,10 @@
+   1         tipo_de_calculo (ver opcoes abaixo)
+   5         n (numero de elementos do vetor a)
+1 2 3 4 5    a(i) elementos do vetor
+
+
+tipo_de_calculo:
+                 1  b = a + 1
+                 2  b = 2 * a
+                 3  b = a**2
+
