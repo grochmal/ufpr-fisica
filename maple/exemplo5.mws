@@ -1,0 +1,21 @@
+{VERSION 3 0 "IBM INTEL LINUX" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "dsolve(diff(y(x),x)-
+y(x),y(x));" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+40 "dsolve(\{diff(y(x),x)-y(x),y(0)=1\},y(x));" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 47 "dsolve(diff(diff(y(x),x),x)+omega^2*y(x),y(x))
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 56 "dsolve(\{diff(diff(y(x
+),x),x)+omega^2*y(x),y(0)=0\},y(x));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 75 "dsolve(\{diff(diff(y(x),x),x)+omega^2*y(x),y(0)=y0,y(
+Pi/(2*omega))=0\},y(x));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 67 
+"dsolve(\{diff(diff(y(x),x),x)+omega^2*y(x),y(0)=y0,D(y)(0)=0\},y(x));
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "dsolve(diff(diff(y(x),x
+),x)-k*diff(y(x),x)+omega^2*y(x),y(x));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 82 "dsolve(\{diff(diff(y(x),x),x)-k*diff(y(x),x)+omega^2*
+y(x),y(0)=y0,D(y)(0)=0\},y(x));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 9 "omega:=1;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "k:=1;" }
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "y0:=1;" }
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK 
+"10 0 0" 6 }{VIEWOPTS 1 1 0 1 1 1803 }

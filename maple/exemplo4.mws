@@ -1,0 +1,20 @@
+{VERSION 3 0 "IBM INTEL LINUX" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "limit(sin(x),x=0);" 
+}{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "limit(sin(
+x)/x,x=0);" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+26 "limit(exp(x),x=-infinity);" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 25 "limit(exp(x),x=infinity);" }{TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "limit(1/x,x=0);" }{TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "limit((exp(x)-1-x)/x
+^2,x=0);" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "
+limit((exp(x)-cos(x))/x,x=0);" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 21 "series(exp(x),x=0,3);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 19 "series(sin(x),x=0);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "series(sinh(x),x=0);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "series(cosh(x),x=0);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "series(1/(1-x),x=0);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "series(1/(1-x),x=infinity);" }{TEXT -1 0 "" }}}}
+{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

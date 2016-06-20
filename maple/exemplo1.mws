@@ -1,0 +1,24 @@
+{VERSION 3 0 "IBM INTEL LINUX" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "combine(sin(x)^2+cos
+(x)^2);" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "c
+ombine(cos(x)^2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "combin
+e(sin(a)*sin(b));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 56 "combin
+e(sin(x)^2*cos(x) + 3*cos(x)^3 + 2*sin(x)*cos(x));" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 29 "convert( 1.23456, fraction );" }{TEXT -1 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "ln(1);" }{TEXT -1 0 "" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "ln(2);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 13 "evalf(ln(2));" }{TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "exp(0);" }{TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "exp(2);" }{TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "evalf(exp(2));" }{TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "sin(2);" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 14 "evalf(sin(2));" }{TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "sum(k^2,k);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 17 "sum(k^2, k=0..4);" }{TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "product(k,k=1..6);" }{TEXT -1 0 "" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "product(0.5^k,k=1..10);" 
+}{TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "0 0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 }

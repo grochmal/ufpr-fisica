@@ -1,0 +1,21 @@
+{VERSION 3 0 "IBM INTEL LINUX" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "with(plots):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "plot(sin);" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 28 "plot(sin(x),x=0..7,y=-1..1);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "plot([sin(x),cos(x)],x=0..7,y=-1..1
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "plot([sin(x),cos(x)],
+x=0..7,y=-1..1,color=[red,blue]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 73 "plot([sin(x),cos(x)],x=0..7,y=-1..1,color=[red,blue],
+style=[line,point]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 88 "plo
+t([sin(x),cos(x)],x=0..10,y=-1..1,color=[red,blue],style=[line,point],
+symbol=circle);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 120 "plot([s
+in(x),cos(x)],x=0..7,y=-1..1,color=[red,blue],style=[line,point],symbo
+l=circle,labels=[X,Y],title=`Meu Grafico`);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 54 "plot([sin(4*x),x,x=0..2*Pi],coords=polar,thickness
+=3);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "plot(readdata(dados
+,2),style=point,symbol=box);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "10 0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 }

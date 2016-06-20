@@ -1,0 +1,52 @@
+(setq default-major-mode 'text-mode
+      default-fill-column 79
+      font-lock-maximum-decoration t
+      mark-even-if-inactive t
+      next-line-add-newlines nil
+      auto-save-list-file-name nil)
+(transient-mark-mode 1)
+(global-font-lock-mode t)
+(autoload 'c++-mode  "cc-mode" "C++ Editing Mode" t)
+(autoload 'c-mode    "cc-mode" "C Editing Mode" t)
+
+(setq fortran-mode-hook
+  '(lambda()
+     ;;(require 'colmode)
+     ;;(setq current-column-mode t)
+     (setq mode-line-format 
+	   '("" mode-line-modified mode-line-buffer-identification "   " 
+	     global-mode-string "   %[(" mode-name mode-line-process 
+	     minor-mode-alist "%n" ")%]--" (line-number-mode " L%l:C%c --")
+	     (-3 . "%p") "-%-"))
+     (setq fortran-line-number-indent 4)
+     (setq fortran-comment-indent-style "relative")
+     (setq indent-tabs-mode nil)
+     ;;(setq fortran-comment-line-column 3)
+     (turn-on-auto-fill)
+;;     (turn-on-font-lock)
+     ;;(setq fortran-comment-indent-char 99)
+  )
+)
+
+(defun my-c-mode-common-hook ()
+  ;; my customizations for all of c-mode, c++-mode, and objc-mode
+  ;;(c-set-style "K&R")
+  (setq c-basic-offset 4
+	tab-width 4)
+  (c-set-offset 'case-label 2)
+  (c-set-offset 'statement-cont 4)
+  (c-toggle-auto-hungry-state 1)
+  (c-toggle-auto-state -1)
+  (setq c-cleanup-list '(brace-else-brace))
+  (setq lazy-lock-minimum-size 2000)
+)
+(add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
+
+;; TEXT MODE SETUP
+
+(setq text-mode-hook
+  '(lambda()
+     (turn-on-auto-fill)
+  )
+)
+(standard-display-european t)
